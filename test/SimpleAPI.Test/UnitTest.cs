@@ -12,7 +12,7 @@ namespace SimpleAPI.Test
         public void GetReturnWeatherData()
         {
             var returnValue = controller.Get(1);
-            Assert.Equal("abc", returnValue.Value); // grab the value
+            Assert.Equal("abhc", returnValue.Value); // grab the value
         }
 
 
