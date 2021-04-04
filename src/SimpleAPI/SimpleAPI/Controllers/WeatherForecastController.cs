@@ -27,12 +27,12 @@ namespace SimpleAPI.Controllers
 
         }
 
-        [HttpGet]
-        public ActionResult<string> Get()
-        {
+        //[HttpGet]
+        //public ActionResult<string> Get()
+        //{
 
-            return "dotnet CI/CD API";
-        }
+        //    return "dotnet CI/CD API";
+        //}
 
         [HttpGet]
         public ActionResult<string> Get( int id)
